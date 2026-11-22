@@ -1,0 +1,59 @@
+# Godot 4.2: generated imports, shader cache, editor state and export credentials.
+.godot/
+*.translation
+export_credentials.cfg
+
+# Keep source-side *.import files and any *.uid files in version control.
+# Keep reviewed export_presets.cfg files too (Godot 4.1+ separates credentials).
+
+# Export into these directories, not alongside source assets.
+/build/
+/builds/
+/dist/
+/export/
+/exports/
+*.pck
+*.exe
+*.apk
+*.aab
+*.app/
+*.dmg
+*.ipa
+*.x86_64
+*.x86_32
+
+# Private machine configuration and signing material.
+.env
+.env.*
+!.env.example
+*.local.cfg
+*.keystore
+*.jks
+*.p12
+*.pfx
+*.pem
+*.key
+.aws/
+.ssh/
+/private/
+/credentials/
+/secrets/
+
+# Local editor/OS files and publication-check working copies.
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+/.vscode/
+/.idea/
+/.publication-local/
+*.tmp
+*.swp
+*.swo
+*~
+
+# Unreferenced 282.41 MiB ZBrush model: retained locally, not part of the 2D game.
+# Resolve provenance and choose Git LFS before deliberately publishing it.
+# Do not ignore *.obj generally: OBJ files are source assets in Godot.
+/scenes/MothCompleted1.25.obj
+/scenes/MothCompleted1.25.obj.import
